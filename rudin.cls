@@ -2,13 +2,14 @@
 \ProvidesClass{rudin}[2017/05/06 Emulate Principles of Mathematical Analysis
 typesetting]
 
-\LoadClass[leqno]{article}
+\LoadClass{article}
 
 \RequirePackage{geometry}
 \RequirePackage{changepage}
 \RequirePackage{times}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
+\RequirePackage[leqno]{amsmath}
 
 \renewenvironment{proof}{%
 \begin{adjustwidth}{\parindent}{\parindent}
