@@ -20,7 +20,7 @@
 \ProvidesClass{rudin}[2017/05/06 Emulate Principles of Mathematical Analysis
 typesetting]
 
-\LoadClass{article}
+\LoadClassWithOptions{article}
 
 \RequirePackage{geometry}
 \RequirePackage{changepage}
