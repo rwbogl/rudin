@@ -42,7 +42,7 @@ typesetting]
 \newtheoremstyle{rudin}
     {6pt}       % Space before.
     {6pt}       % Space after.
-    {}          % Body font.
+    {\it}       % Body font.
     {}          % Indent amount.
     {\bf}       % Theorem head shape.
     {}          % Punctuation after theorem head.
