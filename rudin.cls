@@ -32,7 +32,7 @@ typesetting]
 \renewenvironment{proof}{%
 \begin{adjustwidth}{\parindent}{\parindent}
 {\bf Proof} \ \ 
-}{%
+}{\hfill $\blacksquare$%
 \end{adjustwidth}}
 
 % "1.3 Theorem" instead of "Theorem 1.3."
